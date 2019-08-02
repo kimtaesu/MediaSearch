@@ -1,0 +1,27 @@
+
+input_dir: ${PROJECT_DIR}
+output_dir: Generated
+
+strings:
+  inputs: ${TARGET_NAME}/Base.lproj/Localizable.strings
+  outputs:
+    templateName: structured-swift4
+    output: L10n.swift
+
+xcassets:
+  inputs: ${TARGET_NAME}/Assets.xcassets
+  outputs:
+    templateName: swift4
+    output: Assets.swift
+
+colors:
+  inputs: Resources/color.txt
+  outputs:
+    templatePath: templates/colors/literals-swift5.stencil
+    output: MyColor.swift
+
+fonts:
+  inputs: Resources/Fonts
+  outputs:
+    templateName: swift4
+    output: Fonts.swift

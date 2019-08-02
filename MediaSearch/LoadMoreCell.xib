@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="U6S-fZ-w7I" customClass="LoadMoreCell" customModule="MediaSearch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="i3A-ES-gYu">
+                    <rect key="frame" x="213.5" y="75" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="i3A-ES-gYu" firstAttribute="centerY" secondItem="qyy-WP-Psv" secondAttribute="centerY" id="PB0-l8-dXv"/>
+                <constraint firstItem="i3A-ES-gYu" firstAttribute="centerX" secondItem="qyy-WP-Psv" secondAttribute="centerX" id="rMS-Dn-o7E"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="qyy-WP-Psv"/>
+            <connections>
+                <outlet property="activitiyIndicator" destination="i3A-ES-gYu" id="iWd-RI-V9i"/>
+            </connections>
+            <point key="canvasLocation" x="-606.52173913043487" y="71.651785714285708"/>
+        </collectionReusableView>
+    </objects>
+</document>

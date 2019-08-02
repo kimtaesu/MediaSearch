@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  MediaSearch
+
+  Created by tskim on 19/07/2019.
+  Copyright © 2019 hucet. All rights reserved.
+*/
+"ok" = "확인";
+"cancel" = "취소";
+
+"search_tab_item_title" = "검색";
+"store_tab_item_title" = "보관함";
+
+"search_placeholder" = "Search";
+"media_seach_title" = "이미지 검색";
+"my_store_title" = "내 보관함";
+"error_unknown" = "예상하지 못한 에러가 발생했습니다. 다시 시도해 주세요.";
+"error_fail_to_download" = "다운로드를 실패하였습니다.";
+"toast_favorite_saved" = "보관함에 저장되었습니다.";
+"search_result_empty" = "검색된 결과가 없습니다.";
+"search_result_first_empty" = "검색어를 입력해 주세요.";
+
+"favorite_empty" = "저장된 결과가 없습니다.";
+
+"notificationSavedToStoreTitle" = "내 보관함에 저장되었습니다 👍";
+"notificationSavedToStoreBody" = "클릭하시면 보관함으로 이동합니다.";
+
+"notificationSavedToPhotoAppTitle" = "성공 👍";
+"notificationSavedToPhotoAppBody" = "사진앱에 이미지가 저장되었습니다.";
+
+"notificationSavedToPageEndTitle" = "마지막 페이지! 👍";
+"notificationSavedToPageEndBody" = "스크롤이 빠르시네요!";

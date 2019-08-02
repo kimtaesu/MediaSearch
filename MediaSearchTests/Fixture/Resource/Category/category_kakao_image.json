@@ -1,0 +1,19 @@
+{
+    "meta": {
+        "is_end": true,
+        "total_count": 52,
+        "pageable_count": 29
+    },
+    "documents": [
+        {
+            "collection": "blog",
+            "datetime": "2015-03-02T20:35:00.000+09:00",
+            "height": 423,
+            "width": 740,
+            "thumbnail_url": "https://search4.kakaocdn.net/argon/130x130_85_c/7HEOatQBCFH",
+            "image_url": "http://postfiles15.naver.net/20150302_158/jina34622_1425293281201v1ufj_GIF/aszd.gif?type=w1",
+            "display_sitename": "네이버블로그",
+            "doc_url": "http://blog.naver.com/jina34622/220288370239"
+        }
+    ]
+}
